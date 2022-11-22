@@ -1,0 +1,26 @@
+{
+  "name": "soft",
+  "version": "1.0.0",
+  "description": "Проект контрольной работы вариант №4",
+  "main": "server/index.js",
+  "author": "Сапронов Радченко",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "test": "node server/index.js",
+    "server": "nodemon server/index.js",
+    "client": "npm run start --prefix software",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "dependencies": {
+    "concurrently": "^7.6.0",
+    "config": "^3.3.8",
+    "create-react-app": "^5.0.1",
+    "express": "^4.18.2",
+    "express-validator": "^6.14.2",
+    "jsonwebtoken": "^8.5.1",
+    "nodemon": "^2.0.20",
+    "postgres": "^3.3.2",
+    "react": "^18.2.0"
+  }
+}

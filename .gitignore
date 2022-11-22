@@ -10,6 +10,7 @@
 
 # production
 /build
+/sofware
 
 # misc
 .DS_Store
