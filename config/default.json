@@ -1,5 +1,5 @@
 {
-  "port": 8080,
+  "port": 80,
   "db_port": 5432,
   "db_name": "dsc",
   "db_user": "sapronov",
