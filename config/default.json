@@ -2,7 +2,7 @@
   "port": 8080,
   "db_port": 5432,
   "db_name": "dsc",
-  "db_user": "postgres",
+  "db_user": "sapronov",
   "db_user_password": "Sprada1501",
-  "db_host": "tu.curswork.org"
+  "db_host": "79.133.182.251"
 }
